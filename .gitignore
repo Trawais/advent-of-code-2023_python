@@ -2,7 +2,7 @@
 .venv
 
 # Ignore editors file
-.vscode
+# .vscode
 .idea
 
 # Python cache
