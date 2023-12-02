@@ -1,6 +1,9 @@
 # Virtual environment
 .venv
 
+# PyTest cache
+.pytest_cache
+
 # Ignore editors file
 # .vscode
 .idea

@@ -15,4 +15,4 @@ def test_second_part_example():
 
 def test_second_part_solution():
     lines = get_lines_from_file('./data/day01/input.data')
-    assert sum_numbers_2(lines) == 281
+    assert sum_numbers_2(lines) == 53855
