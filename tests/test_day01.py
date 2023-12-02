@@ -1,10 +1,8 @@
-import pytest
+from src import day01
 
-class TestClass:
-    def test_one(self):
-        x = "this"
-        assert "h" in x
+def test_first_part_example():
+    file = open('./tests/data/day01/example.data', 'r')
+    lines = file.readlines()
+    file.close()
 
-    def test_two(self):
-        x = "hello"
-        assert hasattr(x, "check")
+    assert sum_numbers(lines) == 142
