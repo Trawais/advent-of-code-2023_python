@@ -13,7 +13,7 @@
             "justMyCode": true,
             "env": {
                 // "PYTHONPATH": "${workspaceFolder}",
-                "DATA_FILE": "${workspaceFolder}/data/day04/example.data"
+                "DATA_FILE": "${workspaceFolder}/data/day05/example.data"
             }
         }
     ]
